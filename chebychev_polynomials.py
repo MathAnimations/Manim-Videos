@@ -5,7 +5,7 @@ config.pixel_width = 1080
 config.frame_height = 16.0
 config.frame_width = config.frame_height * config.pixel_width / config.pixel_height
 
-class Reel10(Scene):
+class ChebPol(Scene):
     def construct(self):
         title = Tex(r"$\mathbb{C}\text{hebyshev}\; \mathbb{P}\text{olynomials}$").set_color_by_gradient(TEAL, GREEN).scale(1.5).move_to(UP*3.5)
 
